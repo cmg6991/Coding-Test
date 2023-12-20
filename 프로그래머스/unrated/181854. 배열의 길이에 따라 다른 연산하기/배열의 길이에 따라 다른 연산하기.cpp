@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> solution(vector<int> arr, int n) {
     vector<int> answer = arr;
-    if(arr.size()%2 == 0)
+    if(answer.size()%2 == 0)
     {
         for(int i = 1;i<answer.size();i+=2)
             answer[i] += n;
